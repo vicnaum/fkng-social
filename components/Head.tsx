@@ -3,7 +3,7 @@ import Head from "next/head";
 const FKNGHead = () => {
   const title = "FKNG.SOCIAL | Making social fkng great again";
   const desc = "Making social fkng great again - A new way to connect in web3";
-  const image = "https://fkng.pro/fkng.png";
+  const image = "https://fkng.social/fkng.png";
   return (
     <Head>
       <title>{title}</title>

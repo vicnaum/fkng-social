@@ -1,13 +1,13 @@
 {
-  "name": "FKNG.PRO",
-  "short_name": "FKNG.PRO",
+  "name": "FKNG.SOCIAL",
+  "short_name": "FKNG.SOCIAL",
   "start_url": "/",
   "display": "standalone",
   "theme_color": "#fff",
   "background_color": "#fff",
   "icons": [
     {
-      "src": "https://fkng.com/favicon.png",
+      "src": "https://fkng.social/favicon.png",
       "sizes": "128x128",
       "type": "image/png"
     }
