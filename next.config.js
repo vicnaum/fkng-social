@@ -2,7 +2,10 @@
 const nextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
-  output: "standalone", // This is important for containerized deployments
+  output: "export", // Changed from 'standalone' to 'export' for static site generation
+  images: {
+    unoptimized: true, // Required for static export
+  },
 };
 
 module.exports = nextConfig;
