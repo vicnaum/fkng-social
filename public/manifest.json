@@ -1,0 +1,15 @@
+{
+  "name": "FKNG.PRO",
+  "short_name": "FKNG.PRO",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "icons": [
+    {
+      "src": "https://fkng.com/favicon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}

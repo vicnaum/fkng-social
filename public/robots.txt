@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dalle2nft.com
+
+# Sitemaps
+Sitemap: https://dalle2nft.com/sitemap.xml

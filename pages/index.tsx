@@ -1,0 +1,44 @@
+import type { NextPage } from "next";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import { FaGithub, FaTwitter } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+import FKNGHead from "../components/Head";
+
+const Home: NextPage = () => {
+  return (
+    <div className={styles.container}>
+      <FKNGHead />
+
+      <div className={styles.main}>
+        <div className={styles.content}>
+          <h1 className={styles.logo}>FKNG.SOCIAL</h1>
+          <p className={styles.slogan}>MAKING SOCIAL FKNG GREAT AGAIN</p>
+        </div>
+        <div className={styles.social}>
+          <a href="mailto:contact@fkng.pro" rel="noreferrer" title="email">
+            <IoIosMail size={20} />
+          </a>
+          <a
+            href="https://twitter.com/fkngPro/"
+            target="_blank"
+            rel="noreferrer"
+            title="twitter"
+          >
+            <FaTwitter size={18} />
+          </a>
+          <a
+            href="https://github.com/fkng-pro/"
+            target="_blank"
+            rel="noreferrer"
+            title="github"
+          >
+            <FaGithub size={18} />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Home;
