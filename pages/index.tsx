@@ -20,22 +20,6 @@ const Home: NextPage = () => {
           <a href="mailto:contact@fkng.pro" rel="noreferrer" title="email">
             <IoIosMail size={20} />
           </a>
-          <a
-            href="https://twitter.com/fkngPro/"
-            target="_blank"
-            rel="noreferrer"
-            title="twitter"
-          >
-            <FaTwitter size={18} />
-          </a>
-          <a
-            href="https://github.com/fkng-pro/"
-            target="_blank"
-            rel="noreferrer"
-            title="github"
-          >
-            <FaGithub size={18} />
-          </a>
         </div>
       </div>
     </div>
