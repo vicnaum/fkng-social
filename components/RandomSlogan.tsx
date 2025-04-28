@@ -114,6 +114,8 @@ const slogans = [
   "COMING FKNG SOON™",
   "FKNG IS THE NEW BLACK",
   "NO FKNG FAKE NEWS",
+  `NO "CONTENT" HERE. JUST REAL TALK`,
+  `CREATORS CAN GO FKNG HOME. THIS IS FOR REAL PEOPLE`,
 ];
 
 const RandomSlogan = () => {
