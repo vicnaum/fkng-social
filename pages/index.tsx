@@ -1,10 +1,9 @@
 import type { NextPage } from "next";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { FaGithub, FaTwitter } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import FKNGHead from "../components/Head";
 import RandomSlogan from "../components/RandomSlogan";
+import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
@@ -13,7 +12,14 @@ const Home: NextPage = () => {
 
       <div className={styles.main}>
         <div className={styles.content}>
-          <h1 className={styles.logo}>FKNG.SOCIAL</h1>
+          <Image
+            src="/FKNG.SOCIAL.svg"
+            alt="FKNG.SOCIAL"
+            width={302}
+            height={36}
+            className={styles.logo}
+            priority
+          />
           <RandomSlogan />
         </div>
         <div className={styles.social}>
